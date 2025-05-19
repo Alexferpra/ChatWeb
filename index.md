@@ -4,7 +4,7 @@
     	function initEmbeddedMessaging() {
     		try {
     			embeddedservice_bootstrap.settings.language = 'es'; // For example, enter 'en' or 'en-US'
-          embeddedservice_bootstrap.prechatAPI.setVisiblePrechatFields({"Email" : "alejandro.fdezpradel@inetum.com"});
+          embeddedservice_bootstrap.prechatAPI.setVisiblePrechatFields({"Email" : {"value": "alejandro.fdezpradel@inetum.com", "isEditableByEndUser": false }});
     			embeddedservice_bootstrap.init(
     				'00D5E00000091lt',
     				'SAV_esd_SaviaChatWeb',
